@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 namespace Assets.Scripts
 {
-    public class HealBarSlider : HealthRenderer
+    public class HealBar : HealthRenderer
     {
         [SerializeField] private Slider _slider;
         [SerializeField] private bool _isTimer;
